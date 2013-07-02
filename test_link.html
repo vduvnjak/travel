@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+var startLocationJS = "SFO";
+var startDateJS = "2011/05/20";
+var budgetJS = 1500;
+var numberPeople = 2;
+var numberNights = 2;
+var airportshortName ="BHM";
+
+//var endDateJS = document.getElementById('endDate').value;
+function addDays(myDate,days) 
+{
+    return new Date(myDate.getTime() + days*24*60*60*1000);
+}
+
+var startYearJS = startDateJS.substr(0,4);
+var startMonthJS = startDateJS.substr(5,2);
+var startDayJS = startDateJS.substr(8,2);
+
+var dt = addDays(new Date(startYearJS, startMonthJS, startDayJS,0,0,0),numberNights);
+
+var dtdate  = dt.getDate();
+var day = (dtdate < 10) ? '0' + dtdate : dtdate;
+var dtmonth = dt.getMonth();
+var month = (dtmonth < 10) ? '0' + dtmonth : dtmonth;
+
+var endDateJS = dt.getFullYear()+"/"+month+"/"+day;
+
+
+var startDateJS_orbf = startYearJS+"."+startMonthJS+"."+startDayJS+"+00:00:00";
+var checkinDateJS_orbhf = startMonthJS+"/"+startDayJS+"/"+startYearJS;
+
+var endYearJS = endDateJS.substr(0,4);
+var endMonthJS = endDateJS.substr(5,2);
+var endDayJS = endDateJS.substr(8,2);
+var endDateJS_orbf = endYearJS+"."+endMonthJS+"."+endDayJS+"+00:00:00";
+var checkoutDateJS_orbhf = endMonthJS+"/"+endDayJS+"/"+endYearJS;
+
+
+var startDateJS_f = startDateJS.replace(/-/g, "/");
+var endDateJS_f = endDateJS.replace(/-/g, "/");
+
+var budgetFlightPerson = 200;
+var budgetHotelPerDay = Math.round((budgetJS - budgetFlightPerson*numberPeople)/(numberNights*numberPeople));
+
+var budgetFlight_cents = 100*budgetFlightPerson;
+
+var linkSinergy = "http://click.linksynergy.com/fs-bin/click?id=yX0lNx6nVK0&subid=&offerid=192031.1&type=10&tmpid=2641&RD_PARM1=";
+
+var orbRequest_flight_link = "http://www.orbitz.com/App/SubmitOffSiteFlightSelection?sliceCount=2%2526nf=0%2526sgCt_sl_0=1%2526cc_sl_0_sg_0=CO";
+orbRequest_flight_link += "%2526fn_sl_0_sg_0=6768%2526oa_sl_0_sg_0="+startLocationJS+"%2526da_sl_0_sg_0="+airportshortName+"%2526bc_sl_0_sg_0=T%2526cb_sl_0_sg_0=C";
+orbRequest_flight_link += "%2526dt_sl_0_sg_0="+startDateJS_orbf+"%2526sgCt_sl_1=1%2526cc_sl_1_sg_0=CO%2526fn_sl_1_sg_0=8211";
+orbRequest_flight_link += "%2526oa_sl_1_sg_0="+airportshortName+"%2526da_sl_1_sg_0="+startLocationJS+"%2526bc_sl_1_sg_0=T%2526cb_sl_1_sg_0=C";
+orbRequest_flight_link += "%2526dt_sl_1_sg_0="+endDateJS_orbf;
+orbRequest_flight_link += "%2526adult="+numberPeople+"%2526senior=0%2526youth=0%2526child=0%2526infantWithSeat=0%2526infantWithoutSeat=0";
+orbRequest_flight_link += "%2526price=%2526advertisedPrice="+budgetFlight_cents+"%2526totalBF=%2526taxes=%2526sf=0%2526source=OSA_FRCST%2526searchHost=ITA%2526gcid=C11287x357%2526WT.mc_id=e98%2526WT.mc_ev=click%2526afsrc=1";
+
+var orbRequest_flight  = linkSinergy;
+orbRequest_flight += orbRequest_flight_link;
+
+var booking_link = "<a target='_blank' href="+"'"+orbRequest_flight+"'"+">Booking link</a>";
+
+document.writeln(orbRequest_flight);
+document.write(booking_link);
+
+</script>
+
+
+
+<style type="text/css">
+
+</style>
+</head>
+
+<body >
+
+</body>
+</html>
+	

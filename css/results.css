@@ -1,0 +1,261 @@
+a:visited {
+	color: #1833cc;
+}
+
+html
+{
+	margin:0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin:0;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	height: 100%;
+	background: #99bdde;
+	color: #000;
+}
+
+img.close {
+	cursor: pointer;
+	float: right;
+}
+
+legend {
+	font-weight: bold;
+}
+
+legend.slider {
+	text-align: center;
+	width: 100%;
+}
+
+#slider { 
+	margin: 0px;
+	width: 150px;
+	display: inline-block;
+}
+
+strong {
+	font-weight: bold;
+}
+
+table {
+	background: #99bdde ;
+}
+
+th {
+	padding: 0;
+}
+td {
+	padding: 0;
+	background: #fdfdff ;
+	text-align: center;
+}
+iframe {
+	margin: 0;
+}
+
+
+#footer {
+position:fixed;
+left:0px;
+bottom: 0px;
+display: block;
+margin: 2px auto;
+padding: 2px 2px 2px 2px;
+height: 20px;
+width: 100%;
+text-align:left;
+color: #000;
+
+font-family:"Tahoma", "league-gothic-1","league-gothic-2";
+color:#223388;
+font-size:12px;
+font-weight:normal;
+text-decoration:none;
+
+-moz-box-shadow: 0 0 2px 2px #666;
+-webkit-box-shadow: 0 0 2px 2px#666;
+box-shadow: 0 0 2px 2px #666;
+border:solid 1px;
+/*border-color:#995555;*/
+border-color:#555599;
+border-radius: 3px;
+-moz-border-radius: 3px;
+/*background: #ffffff url(images/ui-bg_highlight-soft_25_gra.png) repeat-x;*/
+/*background: #ffffff url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) repeat-x;*/
+background: #ffffff url(images/white_lgrey_153.png) repeat-x;
+
+}
+
+#footer-left a {
+font-family:"Tahoma", "league-gothic-1","league-gothic-2";
+color:#223388;
+font-size:12px;
+font-weight:normal;
+text-decoration:none;
+}
+
+#footer-right {
+display:block;
+float:right;
+font-size:10px;
+color:#a1a1a1;
+display:inline;
+margin:4px 10px 0 0;
+position:relative;
+}
+
+ul#footer-left {
+color:#223388;
+font-size:12px;
+font-weight:normal;
+float:left;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0px 0px 2px 0px;
+width: 800px;
+}
+
+ul#footer-left li {
+display:inline-block;
+position:relative;
+}
+
+ul#footer-left li a {
+color:#223388;
+font-size:12px;
+text-decoration:none;
+}
+
+ul#footer-right {
+display:block;
+float:right;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:5px 10px 0 0;
+position:relative;
+}
+
+li#copyright {
+color:#a1a1a1;
+display:inline;
+font-size:10px;
+position:relative;
+text-decoration:none;
+}
+
+ul#menu-left {
+color:#223388;
+float:left;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0px 0px 2px 0px;
+padding:10px;
+}
+
+ul#menu-left li {
+position:relative;
+}
+
+ul#menu-left li a {
+color: #223388;
+font-size:16px;
+text-decoration:none;
+}
+
+.menu_left {
+float:left;
+margin: 2px auto;
+padding: 2px 2px 2px 2px;
+width: 155px;
+height:500px;
+text-align:left;
+color: #223388;
+/*border:solid 1px;
+border-color:#995555;
+background: url(images/clouds.png) no-repeat;*/
+}
+
+.content_right {
+/*position:absolute;*/
+/*float:right;*/
+width:550px;
+margin: 4px auto 2px 150px;
+padding: 0px 20px 10px 20px;
+text-align:left;
+color: #223388;
+overflow:auto;
+/*border:solid 1px;
+border-color:#ff5555;*/
+}
+
+.container {
+overflow:hidden;
+/*position:static;*/
+/*width:960px;*/
+width:auto;
+height:auto;
+/*height:100%;*/
+margin:0px auto 0px auto;
+padding: 0px 0px 40px 0px;
+/*border:solid 1px;
+border-color:#99dd55;*/
+}
+
+.header {
+margin: 0px auto;
+padding: 2px 2px 2px 2px;
+width:99%;
+height:142px;
+text-align:left;
+color: #fff;
+border:solid 0px;
+border-color:#555599;
+background: #99bdde url(images/fruitfly_bckg.png) no-repeat;
+}
+
+.heading {
+margin: 0;
+padding: 2px 2px 2px 2px;
+text-align:left;
+color: #223388;
+font-size:30px;
+font-family:"Tahoma";
+font-weight:bold;
+}
+
+.subheading {
+margin: 0;
+padding: 2px 2px 2px 2px;
+text-align:left;
+color: #223388;
+font-size:20px;
+font-family:"Tahoma";
+font-weight:bold;
+}
+
+.small {
+font-size:12px;
+font-family:"Tahoma";
+}
+
+.hr_line{
+width:99%;
+height:0px;
+border-top:solid 1px;
+border-color:#555599;
+}
+
+.total_price {
+font-size:18px;
+font-family:"Tahoma";
+color: #66d;
+}
+

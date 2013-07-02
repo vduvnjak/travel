@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  
+                      <script src="geocoder_data/maps" type="text/javascript"></script><script src="geocoder_data/main.js" type="text/javascript"></script><style type="text/css">@media print{.gmnoprint{display:none}}@media screen{.gmnoscreen{display:none}}</style>
+          
+      <link rel="stylesheet" href="../index_files/index_files/r9.css" type="text/css">
+  <script src="geocoder_data/mod_api_gc.js" charset="UTF-8" type="text/javascript"></script></head><body onload="startup()" onunload="unload()">
+                        <span class="sitename"></span>
+        <div id="map" style="width: 1px; height: 1px;"></div>
+    
+        <script type="text/javascript">
+    //<![CDATA[
+
+        function startup()
+    {
+        if (typeof initMap == "function") {
+            initMap();
+        }
+    }
+    function unload()
+    {
+         try {
+            GUnload();
+        } catch (ignored) {}
+    }
+
+    var baseIcon;
+    var map2;
+
+
+        baseIcon = new GIcon();
+        baseIcon.shadow = "http://www.google.com/mapfiles/shadow50.png";
+        baseIcon.iconSize = new GSize(20, 34);
+        baseIcon.shadowSize = new GSize(37, 34);
+        baseIcon.iconAnchor = new GPoint(9, 34);
+        baseIcon.infoWindowAnchor = new GPoint(9, 2);
+        baseIcon.infoShadowAnchor = new GPoint(18, 25);
+
+            var geocoder = new GClientGeocoder();
+
+        function geoCodeAddressExact(addr, callback)
+        {
+            geocoder.getLatLng(addr, callback);
+
+        }
+
+        function geoCodeAddressList(addr, callback)
+        {
+            geocoder.getLocations(addr, callback);
+
+        }
+
+    
+    
+
+        //]]>
+    </script>
+  </body></html>

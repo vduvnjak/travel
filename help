@@ -1,0 +1,164 @@
+{
+"destinations":
+	[
+		{"region":{"name":"Wilayah Persekutuan","longitude":0,"latitude":0,"shortName":"KL"},
+		"flightMaxDuration":1410,"depart":"20110221","return":"20110311",
+		"city":{"id":"4723","name":"Kuala Lumpur","longitude":101.7,"latitude":3.167},
+		"country":{"name":"Malaysia","longitude":101.7,"latitude":3.167,"shortName":"MY"},
+		"flightMaxStops":2,"airport":{"name":"Kuala Lumpur, Malaysia","longitude":101.549333,"latitude":3.130583,"shortName":"SZB"},
+		"languages":[],"flight":4080,"days":18,"temp":[[73,90],[73,91],[75,91],[75,91],[75,91],[75,91],[75,90],[75,90],[75,90],[75,90],[75,90],[73,90]],
+		"activities":["gambling"]
+		},
+		
+		{"region":{"name":"South Carolina","longitude":-81.027738825773,"latitude":33.946462949485,"shortName":"SC"},
+		"flightMaxDuration":480,"depart":"20110302","return":"20110306",
+		"city":{"id":"17606","name":"Hilton Head","longitude":-80.753,"latitude":32.216},
+		"country":{"name":"United States","longitude":-96.5,"latitude":40,"shortName":"US"},
+		"flightMaxStops":1,"airport":{"name":"Hilton Head, SC","longitude":-80.7,"latitude":32.21666667,"shortName":"HHH"},
+		"languages":["en"],"flight":440,"days":4,"temp":[[39,59],[43,63],[48,70],[55,77],[63,84],[72,88],[73,91],[73,90],[68,84],[57,77],[48,70],[41,61]],
+		"activities":["golf","beach"]
+		},
+		
+		{"flightMaxDuration":2400,"flightMaxStops":1,"flight":1600,"languages":["en"],
+		"airport":{"name":"Koror, Palau","longitude":134.4666667,"latitude":7.35,"shortName":"ROR"},"days":13,"depart":"20110227","return":"20110312",
+		"temp":[[77,86],[77,86],[77,88],[77,88],[77,88],[77,86],[77,86],[77,86],[77,86],[77,88],[77,88],[77,88]],"activities":[],
+		"country":{"name":"Palau","longitude":134.483333,"latitude":7.333333,"shortName":"PW"},"city":{"id":"44850","name":"Koror","longitude":134.483333,"latitude":7.333333}
+		},
+		
+		{"region":{"name":"New Mexico","longitude":-106.11691654566,"latitude":34.717690129188,"shortName":"NM"},
+		"flightMaxDuration":540,"depart":"20110315","return":"20110316",
+		"city":{"id":"12257","name":"Roswell","longitude":-104.5225,"latitude":33.39417},
+		"country":{"name":"United States","longitude":-96.5,"latitude":40,"shortName":"US"},
+		"flightMaxStops":1,"airport":{"name":"Roswell, NM","longitude":-104.530559,"latitude":33.30156,"shortName":"ROW"},
+		"languages":["en"],"flight":390,"days":1,"temp":[[27,55],[32,61],[37,70],[46,77],[55,86],[64,93],[68,95],[66,91],[59,86],[46,75],[34,64],[27,55]],
+		"activities":[]
+		},
+		
+		{"region":{"name":"Zilinsky","longitude":0,"latitude":0,"shortName":"ZI"},
+		"flightMaxDuration":1425,"depart":"20110303","return":"20110314",
+		"city":{"id":"6658","name":"Zilina","longitude":18.74,"latitude":49.22},
+		"country":{"name":"Slovakia","longitude":17.117,"latitude":48.15,"shortName":"SK"},
+		"flightMaxStops":2,"airport":{"name":"Zilina, Slovakia","longitude":18.6163573,"latitude":49.2326764,"shortName":"ILZ"},
+		"languages":[],"flight":1360,"days":11,"temp":[[23,32],[23,37],[30,46],[37,57],[46,68],[50,72],[54,77],[54,77],[48,68],[41,57],[32,43],[25,34]],
+		"activities":["ski","gambling"]
+		},
+		
+		{"region":{"name":"Hawaii","longitude":-156.05,"latitude":20.47,"shortName":"HI"},
+		"flightMaxDuration":495,"depart":"20110301","return":"20110322",
+		"city":{"id":"20274","name":"Kahului","longitude":-156.463,"latitude":20.8859},
+		"country":{"name":"United States","longitude":-96.5,"latitude":40,"shortName":"US"},
+		"flightMaxStops":1,"airport":{"name":"Kahului, HI","longitude":-156.4333333,"latitude":20.9,"shortName":"OGG"},
+		"languages":["en"],"flight":490,"days":21,"temp":[[64,81],[63,81],[64,82],[66,82],[68,84],[70,86],[72,88],[72,88],[72,88],[70,86],[68,84],[66,82]],
+		"activities":["nude","romantic","golf","beach","island"]
+		},
+		
+		{"region":{"name":"Jalisco","longitude":-103.55725,"latitude":20.28252083125,"shortName":"JA"},
+		"flightMaxDuration":600,"depart":"20110302","return":"20110305",
+		"city":{"id":"18853","name":"Guadalajara","longitude":-103.333,"latitude":20.667},
+		"country":{"name":"Mexico","longitude":-99.15,"latitude":19.4,"shortName":"MX"},
+		"flightMaxStops":1,"airport":{"name":"Guadalajara, Mexico","longitude":-103.3333333,"latitude":20.66666667,"shortName":"GDL"},
+		"languages":["es"],"flight":420,"days":3,"temp":[[45,73],[46,77],[48,81],[54,86],[57,88],[63,84],[63,79],[61,79],[61,79],[57,79],[50,77],[null,null]],
+		"activities":["gambling"]
+		},
+		
+		{"region":{"name":"Alaska","longitude":-148.92979594377,"latitude":60.718502774925,"shortName":"AK"},
+		"flightMaxDuration":720,"depart":"20110325","return":"20110328",
+		"city":{"id":"8704","name":"Fairbanks","longitude":-147.71639,"latitude":64.83778},
+		"country":{"name":"United States","longitude":-96.5,"latitude":40,"shortName":"US"},
+		"flightMaxStops":2,"airport":{"name":"Fairbanks, AK","longitude":-147.8666667,"latitude":64.81666667,"shortName":"FAI"},
+		"languages":["en"],"flight":660,"days":3,"temp":[[-15,1],[-11,10],[0,27],[21,45],[39,61],[50,72],[52,72],[46,66],[36,54],[16,32],[-4,12],[-13,3]],
+		"activities":[]
+		},
+		
+		{"region":{"name":"Fars","longitude":0,"latitude":0,"shortName":"FA"},
+		"flightMaxDuration":2565,"depart":"20110307","return":"20110328",
+		"city":{"id":"14038","name":"Shiraz","longitude":52.539,"latitude":29.615},
+		"country":{"name":"Iran","longitude":54.227,"latitude":33.211,"shortName":"IR"},
+		"flightMaxStops":2,"airport":{"name":"Shiraz, Iran","longitude":52.63333333,"latitude":29.53333333,"shortName":"SYZ"},
+		"languages":[],"flight":1920,"days":21,"temp":[[30,46],[null,52],[39,59],[48,70],[null,81],[61,90],[68,93],[66,95],[59,88],[50,77],[41,61],[36,52]],
+		"activities":[]
+		},
+		
+		{"region":{"name":"Dubrovacko-Neretvanska","longitude":0,"latitude":0,"shortName":"DN"},
+		"flightMaxDuration":1770,"depart":"20110223","return":"20110226",
+		"city":{"id":"24952","name":"Dubrovnik","longitude":18.091,"latitude":42.651},
+		"country":{"name":"Croatia","longitude":16,"latitude":45.8,"shortName":"HR"},
+		"flightMaxStops":3,"airport":{"name":"Dubrovnik, Croatia","longitude":18.26666667,"latitude":42.56666667,"shortName":"DBV"},
+		"languages":[],"flight":1410,"days":3,"temp":[[45,54],[45,55],[48,59],[54,63],[63,73],[68,81],[72,84],[73,84],[66,77],[61,70],[54,63],[46,55]],
+		"activities":["beach","gambling"]
+		}
+	
+	],
+
+"origin":{"name":"San Francisco, CA","longitude":-122.3833333,"latitude":37.61666667,"shortName":"SFO"}}
+
+
+
+
+
+			xml=
+			<AirSessionRequest method=getAirAvailability>
+			<AirAvailabilityQuery>
+			<originCityCode>MCI</originCityCode>
+			<destinationCityCode>ATL</destinationCityCode>
+			<departureDateTime>11/19/2010 11:00 AM</departureDateTime>
+			<returnDateTime>11/21/2010 10:00 AM</returnDateTime>
+			<fareClass>Y</fareClass>
+			<tripType>R</tripType>
+			<Passengers><adultPassengers>1</adultPassengers></Passengers>
+			<xmlResultFormat>2</xmlResultFormat>
+			<searchType>2</searchType>
+			</AirAvailabilityQuery>
+			</AirSessionRequest>
+			
+		
+		// convert xml to array	
+		<?php	
+		function xml_process($data)
+		{
+		    $xml_parser = xml_parser_create();
+		    xml_parse_into_struct($xml_parser, $data, $vals, $index);
+		    xml_parser_free($xml_parser);
+	
+		    $params = array();
+		    $level = array();
+		    
+		    foreach ($vals as $xml_elem) 
+		    {
+			      if ($xml_elem['type'] == 'open') 
+			      {
+				       if (array_key_exists('attributes',$xml_elem)) 
+				       {
+				         list($level[$xml_elem['level']],$extra) = array_values($xml_elem['attributes']);
+				       } 
+				       else 
+				       {
+				         $level[$xml_elem['level']] = $xml_elem['tag'];
+				       }
+			      }
+			
+			      if ($xml_elem['type'] == 'complete') 
+			      {
+				       $start_level = 1;
+				       $php_stmt = '$params';
+				       while($start_level < $xml_elem['level']) 
+				       {
+				         $php_stmt .= '[$level['.$start_level.']]';
+				         $start_level++;
+				       }
+				
+				       $php_stmt .= '[$xml_elem[\'tag\']] = $xml_elem[\'value\'];';
+				       eval($php_stmt);
+			
+			      }
+		
+		    }
+	
+		    return $params;
+		
+		}
+		
+		?>
+
+	
+	<div id='pinWindow' style='font-family:Tahoma; font-size: 13px; font-weight: 700; border:solid 5px;border-color:#eaeaff; border-radius: 10px; -moz-border-radius: 10px; text-align:center; padding: 0 0 2px 0; overflow-y:auto;'>Sudbury, Canada(YSB)<br/><span style='font-family:Tahoma; font-size: 11px; text-align:left; overflow-y:auto;'> flights: $1150+ per person</span><br/><span style='font-family:Tahoma; font-size: 11px; text-align:left; overflow-y:auto;'><a target='_blank' href='http://click.linksynergy.com/fs-bin/click?id=yX0lNx6nVK0&subid=&offerid=192031.1&type=10&tmpid=2641&RD_PARM1=http://www.orbitz.com/App/SubmitOffSiteFlightSelection?sliceCount=2%2526nf=0%2526sgCt_sl_0=1%2526cc_sl_0_sg_0=CO%2526fn_sl_0_sg_0=6768%2526oa_sl_0_sg_0=SFO%2526da_sl_0_sg_0=YSB%2526bc_sl_0_sg_0=T%2526cb_sl_0_sg_0=C%2526dt_sl_0_sg_0=2011.02.23+00:00:00%2526sgCt_sl_1=1%2526cc_sl_1_sg_0=CO%2526fn_sl_1_sg_0=8211%2526oa_sl_1_sg_0=YSB%2526da_sl_1_sg_0=SFO%2526bc_sl_1_sg_0=T%2526cb_sl_1_sg_0=C%2526dt_sl_1_sg_0=2011.02.27+00:00:00%2526adult=1%2526senior=0%2526youth=0%2526child=0%2526infantWithSeat=0%2526infantWithoutSeat=0%2526price=%2526advertisedPrice=115000%2526totalBF=%2526taxes=%2526sf=0%2526source=OSA_FRCST%2526searchHost=ITA%2526gcid=C11287x357%2526WT.mc_id=e98%2526WT.mc_ev=click%2526afsrc=1'>Book now!</a></span></div>
